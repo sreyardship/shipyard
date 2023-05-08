@@ -1,2 +1,2 @@
 # shipyard
-An opinionated infrastructure for high velocity and high quality development, that you own.  
+An opinionated infrastructure for high velocity and quality development, that you own.  
