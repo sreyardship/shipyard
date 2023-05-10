@@ -11,6 +11,7 @@ spec:
           # produces argocd app per directory in clusters/base
           - git:
               repoURL: &repo https://github.com/sreyardship/shipyard.git
+              revision: main
               directories:
                 - path: clusters/production/*
   template:
