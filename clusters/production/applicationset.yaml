@@ -18,7 +18,7 @@ spec:
     metadata:
       name: "{{path.basename}}"
     spec:
-      project: system
+      project: default
       source:
         repoURL: *repo
         path: "{{path}}"
