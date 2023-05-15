@@ -3,6 +3,7 @@
 
   inputs.devshell.url = "github:numtide/devshell";
   inputs.flake-utils.url = "github:numtide/flake-utils";
+  inputs.nixpkgs.url = "nixpkgs/nixos-unstable";
 
   outputs = { self, flake-utils, devshell, nixpkgs }:
     flake-utils.lib.eachDefaultSystem (system: {

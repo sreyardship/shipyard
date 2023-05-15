@@ -2,4 +2,6 @@
 packages = [
   "argocd",
   "cmctl",
+  "kustomize",
+  "kubernetes-helm",
 ]
